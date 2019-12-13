@@ -1,0 +1,10 @@
+{% extends 'meals/base.html' %} {% load static %}
+{% block content %}
+    <h1>ABOUT THE PAGE</h1>
+    <img src="{% static 'meals/8bitban.jpg' %}" alt="banana">
+    {% for post in posts %}
+        <h1>{{ post.title }}</h1>
+        <p>By {{post.author }} on {{post.date_posted }}</p>
+        <p>{{ post.content }}</p>
+    {% endfor %}
+{% endblock %}

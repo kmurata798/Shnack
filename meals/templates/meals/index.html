@@ -1,0 +1,18 @@
+
+{% extends 'meals/base.html' %}
+ 
+{% load static %}
+{% block content %}
+<div class="row no-gutters">
+    <div class="col">
+        <div class="container-fluid" style="padding: 0px;"><img class="img-fluid" src="{% static 'meals/city-view.jpg' %}" style="background-size: auto;background-position: top;"></div>
+        <div class="container-fluid text-center">
+            <h1 style="margin: -525px 0px 525px 0px;">Weclome to Shnack!</h1>
+        </div>
+    </div>
+</div>
+<div class="row no-gutters">
+    <div class="col text-center mb-5">
+        <h1>Let's Go!</h1><a class="btn btn-primary" role="button" href="/meals">Get a Meal</a></div>
+</div>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'meals/base.html' %} {% load static %}
+{% block content %}
+<br>
+    <h1>Meal View:</h1>
+    <div class="col text-center mb-5">
+        <h1>Get a Different Meal!</h1><a class="btn btn-primary" role="button" href="/meals">Get a Meal</a></div>
+    <img src="{{ picture }}" alt="My image">
+
+    <h1>{{ name }}</h1>
+    <h2>{{ instructions }}</h2>
+    
+{% endblock %}
