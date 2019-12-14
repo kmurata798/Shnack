@@ -31,5 +31,5 @@ Clicking the 'Log In' button will directly take the user to the log in form.
 ## (Heroku):
 ==>"heroku open"
 ## (Local Host):
-==>"python3 manage.py runserver
+==>"python3 manage.py runserver"
 
