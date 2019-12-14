@@ -1,13 +1,8 @@
 from rest_framework.serializers import ModelSerializer
 
-from  import Question, Choice
+from meals.models import meals
 
-class QuestionSerializer(ModelSerializer):
+class MealsSerializer(ModelSerializer):
     class Meta:
-        model = Question
-        fields = '__all__'
-
-class ChoiceSerializer(ModelSerializer):
-    class Meta:
-        model = Choice
+        model = Meals
         fields = '__all__'
