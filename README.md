@@ -33,21 +33,36 @@ Clicking the 'Log In' button will directly take the user to the log in form.
 ## (Local Host):
 ==>"python3 manage.py runserver"
 
-Rubric: Contractor Project
+
+# Rubric: Contractor Project
 NOTE: Must score higher than a 70% to pass.
 
 Project Requirements
+
 Criteria	Possible	Earned	☑ Done ️
+
 X At least 2 apps in project	40	00	
+
 X At least 2 tests in tests.py in each app	30	00	
+
 X Modular design	25	00	
-RESTful API using Django REST Framework	25	00	
+
+X RESTful API using Django REST Framework	25	00	
+
 X Template-based front-end interface	25	00	
+
 X Has purpose & fulfills proposal	20	00	
+
 X Integrates an open source app	20	00	
+
 X Deployed & usable	15	00	
-Includes database migrations in each app	15	00	
+
+X Includes database migrations in each app	15	00	
+
 X README with documentation	10	00	
+
 X Public GitHub repo	5	00	
+
 X No exposed secrets	5	00	
+
 TOTAL
