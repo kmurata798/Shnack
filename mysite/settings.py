@@ -25,7 +25,7 @@ SECRET_KEY = '--d+=etz)o@@s+=cva4hc&m+%lze+odv(7ck&1#&)+p_z_$s^5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['shnack.herokuapp.com']
+ALLOWED_HOSTS = ['shnack.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
