@@ -1,6 +1,6 @@
 from rest_framework.serializers import ModelSerializer
 
-from meals.models import meals
+from meals.models import Meals
 
 class MealsSerializer(ModelSerializer):
     class Meta:
