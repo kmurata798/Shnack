@@ -35,34 +35,17 @@ Clicking the 'Log In' button will directly take the user to the log in form.
 
 
 # Rubric: Contractor Project
-NOTE: Must score higher than a 70% to pass.
-
-Project Requirements
-
-Criteria	Possible	Earned	☑ Done ️
-
-X At least 2 apps in project	40	00	
-
-X At least 2 tests in tests.py in each app	30	00	
-
-X Modular design	25	00	
-
-X RESTful API using Django REST Framework	25	00	
-
-X Template-based front-end interface	25	00	
-
-X Has purpose & fulfills proposal	20	00	
-
-X Integrates an open source app	20	00	
-
-X Deployed & usable	15	00	
-
-X Includes database migrations in each app	15	00	
-
-X README with documentation	10	00	
-
-X Public GitHub repo	5	00	
-
-X No exposed secrets	5	00	
-
-TOTAL
+| Criteria      | Possible       | Earned| Done :white_check_mark: |
+|:-------------:|:--------------:|:-----:|:-----------------------:|
+| At least 2 apps in project| 40  | 00   | :heavy_check_mark:
+| At least 2 tests in tests.py in each app | 30 |   00 | :heavy_check_mark:
+| Modular design | 25            | 00 | :heavy_check_mark:
+| RESTful API using Django REST Framework | 25       |    00 | :heavy_check_mark:
+| Template-based front-end interface | 25      |    00 | :heavy_check_mark:
+| Has purpose & fulfills proposal | 20    |    00 | :heavy_check_mark:
+| Integrates an open source app | 20   |    00 | :heavy_check_mark:
+| Deployed & usable | 15      |    00 | :heavy_check_mark:
+| Includes database migrations in each app | 15      |    00 | :heavy_check_mark:
+| README with documentation | 10 | 00 |  :heavy_check_mark:
+| Public Girhub Repository | 5  | 00 | :heavy_check_mark:
+| No exposed secrets | 5  | 00 | :heavy_check_mark:
